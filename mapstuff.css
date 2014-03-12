@@ -1,0 +1,140 @@
+
+@import url(openSansFont/OpenSans.css);
+
+*{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+body{
+	font-family: OpenSans, sans-serif;
+}
+
+a{
+	color: #0099EE;
+	text-decoration: none;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0);
+	
+	transition: background-color;
+	transition-duration: 250ms;
+}
+
+a:hover{
+	color: #FFCC55;
+	background-color: rgba(0, 0, 0, 0.05);
+	text-shadow: 1px 1px #FFFFFF;
+}
+
+div.layoutContainer{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+}
+
+div#menu{
+	z-index: 10000;
+	left: 0px;
+	width: 300px;
+	background-color: #EEEEEE;
+	border-right: 1px #BBCCFF solid;
+	margin-left: -260px;
+	
+	transition: margin-left, box-shadow-color;
+	transition-delay: 300ms;
+	transition-timing-function: ease-in-out;
+	transition-duration: 200ms;
+}
+
+div#menu:hover{
+	box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+	margin-left: 0px;
+	transition-delay: 0s; 
+}
+
+div#minifiedMenu{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 30px;	
+}
+
+span#minifiedMenuLabel{
+	display: block;
+	position: absolute;
+	right: -8px;
+	margin-top: 30px;
+	font-size: 1.5em;
+	font-weight: 300;
+	text-shadow: 1px 1px #FFFFFF;
+	
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	transform: rotate(270deg);
+	color: #0099EE;
+	
+	transition: right;
+	transition-delay: 300ms;
+	transition-timing-function: ease-in-out;
+	transition-duration: 200ms;
+}
+
+div#menu:hover span#minifiedMenuLabel{
+	right: 350px;
+	transition-delay: 0s; 
+}
+
+div#menu h1{
+	font-weight: 300;
+	font-size: 2.4em;
+	text-shadow: -1px -1px #FFFFFF;
+}
+
+a#title{
+	display: block;
+	position: relative;
+	right: 0px;
+	left: 0px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+
+
+
+
+div#mindmap{
+	left: 40px;
+	right: 0px;
+}
+
+#mindmapCanvas{
+	padding: 30px;
+	font-size: 2em;
+	font-weight: 300;
+	border: 1px solid #00FF00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
